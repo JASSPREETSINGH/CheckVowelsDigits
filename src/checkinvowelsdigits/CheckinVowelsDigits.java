@@ -5,6 +5,8 @@
  */
 package checkinvowelsdigits;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Dell
@@ -16,6 +18,18 @@ public class CheckinVowelsDigits {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+     String inStr;                  //input the string 
+     int strlen;
+     int vowelCount; //for the length of the string
+     int digitCount;
+     Scanner in = new Scanner(System.in);
+     System.out.println("Enter the string ");
+     inStr=in.next();
+     strlen=inStr.length();   //calculate the length of the string
+     
+       for(int i=0;i<=strlen;i++){  //to reverse the string
+
+      }
     }
     
 }
